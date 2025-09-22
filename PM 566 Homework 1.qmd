@@ -7,4 +7,32 @@ format:
 fig-width: 8
 fig-heigth: 6
 ---
+# Library Packages
+```{r}
+
+```
+
+# Question 1. (30 points) Given the formulated question from the assignment description, you will now conduct EDA Checklist items 1-5. First, download 2002 and 2022 data for all sites in California from the EPA Air Quality Data website, then read the data into R. For each of the two datasets, check the dimensions, headers, footers, variable names and variable types. Check the distribution of the key variable we are analyzing (PM). Write up a summary of all of your findings.
+```{r}
+# Import data
+eda02 = read.csv("/Users/ldh/Library/Mobile Documents/com~apple~CloudDocs/USC PhD/STUDY DOCUMENTS/Fall 2025/PM 566/HW/HW 1/ad_viz_plotval_data_2002.csv")
+eda22 = read.csv("/Users/ldh/Library/Mobile Documents/com~apple~CloudDocs/USC PhD/STUDY DOCUMENTS/Fall 2025/PM 566/HW/HW 1/ad_viz_plotval_data_2022.csv")
+```
+
+```{r}
+# check the dimensions, headers, footers, variable names and variable type for 2002 data
+dim(eda02)
+head(eda02)
+tail(eda02)
+str(eda02)
+```
+
+```{r}
+# check the dimensions, headers, footers, variable names and variable type for 2022 data
+dim(eda22)
+head(eda22)
+tail(eda22)
+str(eda22)
+```
+
 
