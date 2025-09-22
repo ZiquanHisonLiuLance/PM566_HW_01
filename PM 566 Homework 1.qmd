@@ -1,0 +1,10 @@
+---
+title: "PM 566 Homework 1"
+author: "Ziquan 'Harrison' Liu"
+format: 
+  html:
+    embed-resources: true
+fig-width: 8
+fig-heigth: 6
+---
+
